@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  margin: 2rem 0;
+  color: rgb(159, 152, 152);
+}
+span {
+  font-family: "PT Sans", sans-serif;
+  color: white;
+}
+#entry {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Input_data {
+  margin-left: 1.5vw;
+  width: 70%;
+  height: 6vh;
+  border-radius: 16px;
+  outline: none;
+  border-style: none;
+  background-color: #141a22;
+}
+#Input_data:focus {
+  color: white;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  font-family: "PT Sans", sans-serif;
+}
+#Input_data[placeholder] {
+  font-size: 0.9rem;
+  font-family: "PT Sans", sans-serif;
+  padding-left: 1rem;
+}
+#Add_Input {
+  color: #e90064;
+  font-size: 1.5rem;
+  font-family: "Tilt Warp", cursive;
+  width: 8vw;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom right, #5500e9, #09f7ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #00e9e5;
+  cursor: pointer;
+}
+
+.container {
+  width: 50vw;
+  margin-top:2rem ;
+  padding-left: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+h2{
+    padding-left: 7vw;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #c5c5c6b7;
+}
+#todoList {
+  list-style: none;
+  flex-direction: column;
+  padding-left: 7vw;
+}
+#task{
+    width:25vw;
+    height:5vh;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    border-style: none;
+    outline: none;
+    background-color: #0d0d0dc7;
+}
+#task[value]{
+    color: white;
+    font-size: 1rem;
+    font-family: "PT Sans", sans-serif;
+    padding-left: 1rem;
+}
+
+button{
+    width: auto;
+    height: auto;
+    border-style: none;
+    outline: none;
+    background-color:transparent;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin: 1.2rem;
+    background-image: linear-gradient(to bottom right, #e90080, #f78409);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+}

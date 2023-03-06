@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do List</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/7d8e59c2a1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
     <header>
-        <h1>To-Do List-2023</h1>
-        <input type="text" id="Input_data" placeholder="Create new to-do">
-        <input type="submit" id="Add_Input" placeholder="Add Work">
+      <h1>TASK LIST-<span>2023</span></h1>
+      <span id="entry">
+        <input type="text" id="Input_data" placeholder="Create new to-do" />
+        <button id="Add_Input">Add Task</button>
+      </span>
     </header>
-    <div>
-        <ul id="todoList"></ul>
+    <div class="container">
+        <h2>Tasks :</h2>
+      <ul id="todoList">
+        <li><input type="text" id="task" value="Make Coffee" readonly><button><i class="fa-solid fa-pen"></i></button><button><i class="fa-solid fa-trash-can"></i></button></li>
+      </ul>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
