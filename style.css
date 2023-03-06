@@ -98,13 +98,6 @@ h2{
     outline: none;
     background-color: #0d0d0dc7;
 }
-#task[value]{
-    color: white;
-    font-size: 1rem;
-    font-family: "PT Sans", sans-serif;
-    padding-left: 1rem;
-}
-
 button{
     width: auto;
     height: auto;
